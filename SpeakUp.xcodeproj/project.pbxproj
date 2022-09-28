@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EED9FC728E49CAB00E1327B /* SpeakUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EED9FC628E49CAB00E1327B /* SpeakUpApp.swift */; };
+		8EED9FC928E49CAB00E1327B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EED9FC828E49CAB00E1327B /* ContentView.swift */; };
+		8EED9FCB28E49CAD00E1327B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EED9FCA28E49CAD00E1327B /* Assets.xcassets */; };
+		8EED9FCE28E49CAD00E1327B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EED9FCD28E49CAD00E1327B /* Preview Assets.xcassets */; };
+		8EED9FD528E49EED00E1327B /* Recording.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EED9FD428E49EED00E1327B /* Recording.swift */; };
+		8EED9FD728E4A07C00E1327B /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EED9FD628E4A07C00E1327B /* DataController.swift */; };
+		8EED9FD928E4A4C800E1327B /* RecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EED9FD828E4A4C800E1327B /* RecordingView.swift */; };
+		8EED9FDB28E4A90A00E1327B /* Recorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EED9FDA28E4A90A00E1327B /* Recorder.swift */; };
+		8EED9FDD28E4B1FF00E1327B /* NewRecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EED9FDC28E4B1FE00E1327B /* NewRecordingView.swift */; };
+		8EED9FDF28E4BB9C00E1327B /* PlaybackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EED9FDE28E4BB9C00E1327B /* PlaybackView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8EED9FC328E49CAB00E1327B /* SpeakUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeakUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EED9FC628E49CAB00E1327B /* SpeakUpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakUpApp.swift; sourceTree = "<group>"; };
+		8EED9FC828E49CAB00E1327B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8EED9FCA28E49CAD00E1327B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EED9FCD28E49CAD00E1327B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8EED9FD428E49EED00E1327B /* Recording.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recording.swift; sourceTree = "<group>"; };
+		8EED9FD628E4A07C00E1327B /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		8EED9FD828E4A4C800E1327B /* RecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingView.swift; sourceTree = "<group>"; };
+		8EED9FDA28E4A90A00E1327B /* Recorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recorder.swift; sourceTree = "<group>"; };
+		8EED9FDC28E4B1FE00E1327B /* NewRecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRecordingView.swift; sourceTree = "<group>"; };
+		8EED9FDE28E4BB9C00E1327B /* PlaybackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EED9FC028E49CAB00E1327B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EED9FBA28E49CAB00E1327B = {
+			isa = PBXGroup;
+			children = (
+				8EED9FC528E49CAB00E1327B /* SpeakUp */,
+				8EED9FC428E49CAB00E1327B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EED9FC428E49CAB00E1327B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EED9FC328E49CAB00E1327B /* SpeakUp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EED9FC528E49CAB00E1327B /* SpeakUp */ = {
+			isa = PBXGroup;
+			children = (
+				8EED9FC628E49CAB00E1327B /* SpeakUpApp.swift */,
+				8EED9FDA28E4A90A00E1327B /* Recorder.swift */,
+				8EED9FDC28E4B1FE00E1327B /* NewRecordingView.swift */,
+				8EED9FC828E49CAB00E1327B /* ContentView.swift */,
+				8EED9FD828E4A4C800E1327B /* RecordingView.swift */,
+				8EED9FD428E49EED00E1327B /* Recording.swift */,
+				8EED9FD628E4A07C00E1327B /* DataController.swift */,
+				8EED9FCA28E49CAD00E1327B /* Assets.xcassets */,
+				8EED9FCC28E49CAD00E1327B /* Preview Content */,
+				8EED9FDE28E4BB9C00E1327B /* PlaybackView.swift */,
+			);
+			path = SpeakUp;
+			sourceTree = "<group>";
+		};
+		8EED9FCC28E49CAD00E1327B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8EED9FCD28E49CAD00E1327B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EED9FC228E49CAB00E1327B /* SpeakUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EED9FD128E49CAD00E1327B /* Build configuration list for PBXNativeTarget "SpeakUp" */;
+			buildPhases = (
+				8EED9FBF28E49CAB00E1327B /* Sources */,
+				8EED9FC028E49CAB00E1327B /* Frameworks */,
+				8EED9FC128E49CAB00E1327B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeakUp;
+			productName = SpeakUp;
+			productReference = 8EED9FC328E49CAB00E1327B /* SpeakUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EED9FBB28E49CAB00E1327B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					8EED9FC228E49CAB00E1327B = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 8EED9FBE28E49CAB00E1327B /* Build configuration list for PBXProject "SpeakUp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EED9FBA28E49CAB00E1327B;
+			productRefGroup = 8EED9FC428E49CAB00E1327B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EED9FC228E49CAB00E1327B /* SpeakUp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EED9FC128E49CAB00E1327B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EED9FCE28E49CAD00E1327B /* Preview Assets.xcassets in Resources */,
+				8EED9FCB28E49CAD00E1327B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EED9FBF28E49CAB00E1327B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EED9FC928E49CAB00E1327B /* ContentView.swift in Sources */,
+				8EED9FD928E4A4C800E1327B /* RecordingView.swift in Sources */,
+				8EED9FD728E4A07C00E1327B /* DataController.swift in Sources */,
+				8EED9FDB28E4A90A00E1327B /* Recorder.swift in Sources */,
+				8EED9FD528E49EED00E1327B /* Recording.swift in Sources */,
+				8EED9FDD28E4B1FF00E1327B /* NewRecordingView.swift in Sources */,
+				8EED9FC728E49CAB00E1327B /* SpeakUpApp.swift in Sources */,
+				8EED9FDF28E4BB9C00E1327B /* PlaybackView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8EED9FCF28E49CAD00E1327B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8EED9FD028E49CAD00E1327B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EED9FD228E49CAD00E1327B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpeakUp/Preview Content\"";
+				DEVELOPMENT_TEAM = 2SMBN67F9B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need to record your voice.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "We need to transribe your memo.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.influenciadigital.SpeakUp.TestJR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8EED9FD328E49CAD00E1327B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpeakUp/Preview Content\"";
+				DEVELOPMENT_TEAM = 2SMBN67F9B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need to record your voice.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "We need to transribe your memo.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.influenciadigital.SpeakUp.TestJR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EED9FBE28E49CAB00E1327B /* Build configuration list for PBXProject "SpeakUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EED9FCF28E49CAD00E1327B /* Debug */,
+				8EED9FD028E49CAD00E1327B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EED9FD128E49CAD00E1327B /* Build configuration list for PBXNativeTarget "SpeakUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EED9FD228E49CAD00E1327B /* Debug */,
+				8EED9FD328E49CAD00E1327B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EED9FBB28E49CAB00E1327B /* Project object */;
+}
